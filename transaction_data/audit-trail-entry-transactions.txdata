@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "auditTrailEntryExists",
+        "transactionLabel": "A test auditTrailEntryExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createAuditTrailEntry",
+        "transactionLabel": "A test createAuditTrailEntry transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readAuditTrailEntry",
+        "transactionLabel": "A test readAuditTrailEntry transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateAuditTrailEntry",
+        "transactionLabel": "A test updateAuditTrailEntry transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteAuditTrailEntry",
+        "transactionLabel": "A test deleteAuditTrailEntry transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
